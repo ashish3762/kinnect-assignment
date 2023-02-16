@@ -1,0 +1,43 @@
+.container {
+    font-size: 70px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container span, 
+.container input {
+    margin: 20px;
+}
+
+.container input {
+    font-size: 70px;
+    border: none;
+    border-bottom: 2px solid;
+    width: 100px;
+    text-align: center;
+}
+
+.container input:focus {
+    outline: none;
+}
+
+.submit-btn {
+    background-color: white;
+    border: 1px solid;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.note {
+    font-size: 12px;
+}
+
+.averageTimeInfo {
+    font-size: 20px;
+    margin-top: 200px;
+}
